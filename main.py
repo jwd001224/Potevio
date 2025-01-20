@@ -10,6 +10,7 @@ import HHhdlist
 
 
 def main():
+    HSyslog.log_info("Potevio: version--A.0.4.20250120")
     try:
         HStategrid.datadb_init()
         HHhdlist.get_sysytem_mode()
